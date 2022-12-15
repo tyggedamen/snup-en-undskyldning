@@ -5,7 +5,7 @@ header{
 }
 h1{
     background-color: #B8860B;
-    padding: 50px;
+    padding: 10px;
 
     display: flex;
     justify-content: center;
@@ -17,8 +17,17 @@ h1{
     z-index: 50%;
  }
 
- form {
-    display: flex;
-    font-size: 100px;
+ .container {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    margin: auto;
+    padding: 30px;
+ }
+
+ form input {
     
+    background-color: var(--color-light);
+    border-radius: 30%;
+    margin: 5%; 
+    padding: 5%;
  }

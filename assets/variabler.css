@@ -1,1 +1,7 @@
-@import url(/assets/fonts/FontsFree-Net-Linotte-SemiBold.ttf);
+:root{
+    --base-color: #2f4f4f;
+    --accent-color:  #B8860B ;
+    --color-light: #a9a9a9;
+    --ekstra-color: #cd853f; 
+}
+

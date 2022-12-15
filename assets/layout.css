@@ -1,6 +1,24 @@
 header{
     font-family: Linotte-Semi Bold;
     background-color: rgb(74, 136, 116);
-    
 
 }
+h1{
+    background-color: #B8860B;
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+ body{
+    background-image: url(img/nubaggrundskat.jpg);
+    background-size: cover;
+    
+    z-index: 50%;
+ }
+
+ form {
+    display: flex;
+    font-size: 100px;
+    
+ }
